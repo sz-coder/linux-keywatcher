@@ -1,0 +1,9 @@
+[Unit]
+Description=dev.sz-coder.linux-keywatcher
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dev.sz-coder.linux-keywatcher
+
+[Install]
+WantedBy=multi-user.target
